@@ -34,7 +34,7 @@ GenAI/
     ├── .env.example         # Template for API credentials
     ├── studio.db            # Local SQLite persistence (Ignored in Git)
     └── static/              # Local storage for generated visual assets
-
+```
 
 ##🏗️ Technical Architecture & Methodology
 The system follows a modular Five-Phase Agentic Pipeline:
