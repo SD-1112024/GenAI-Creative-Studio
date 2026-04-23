@@ -36,7 +36,7 @@ GenAI/
     └── static/              # Local storage for generated visual assets
 ```
 
-##🏗️ Technical Architecture & Methodology
+## 🏗️ Technical Architecture & Methodology
 The system follows a modular Five-Phase Agentic Pipeline:
 
 User Input Phase: Accepts a Theme and Genre through an asynchronous FastAPI interface.
@@ -53,21 +53,21 @@ Resilience Layer (Failover Logic): An intelligent layer designed to rotate betwe
 
 PDF Engine (FPDF2): Pulls all generated metadata, text, and imagery into a formatted, professional storyboard report.
 
-##🌟 Key Technical Features
+## 🌟 Key Technical Features
 Prompt Engineering as Data: Unlike traditional ML, the "dataset" consists of high-fidelity world-building constraints injected into the LLM.
 
 Consistency Mapping: Character metadata (e.g., Jax’s "neon-orange mohawk") is persisted across agents to ensure the visual identity remains unchanged across different scenes.
 
 JSON Structured Output: Utilizes JSON mode to ensure 100% accuracy in metadata extraction for the character profile sections of the reports.
 
-##📊 Result Analysis
+## 📊 Result Analysis
 Synchronization Accuracy: Achieved 100% alignment between story events and generated imagery through context-aware prompting.
 
 Identity Persistence: Successfully maintained complex character identifiers (e.g., Vesper’s "red visor") across multiple storyboard scenes.
 
 Execution Efficiency: The total pipeline—from narrative generation to PDF export—completes in under 60 seconds.
 
-##🛠️ Installation & Setup
+## 🛠️ Installation & Setup
 1. Clone the Repository
     git clone [https://github.com/SD-1112024/GenAI-Creative-Studio.git](https://github.com/SD-1112024/GenAI-Creative-Studio.git)
 2. Initialize Virtual Environment
@@ -81,7 +81,7 @@ Create a .env file in the genai-backend/ folder and add your credentials:
     HF_TOKEN=your_token_here
 
 
-##📚 References
+## 📚 References
 [1] D. B. Acharya et al., "Agentic AI: Autonomous Intelligence for Complex Goals – A Comprehensive Survey," IEEE Access, vol. 13, pp. 18911-18935, 2025.
 
 [2] M. Trigka and E. Dritsas, "The Evolution of Generative AI: Trends and Applications," IEEE Access, 2025.
