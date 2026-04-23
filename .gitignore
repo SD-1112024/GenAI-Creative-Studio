@@ -1,0 +1,6 @@
+﻿venv/
+**/.env
+**/studio.db
+genai-backend/static/
+**/__pycache__/
+*.pdf
